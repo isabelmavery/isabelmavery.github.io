@@ -47,10 +47,20 @@
 		font-family: "HelveticaNeue-Medium", "Helvetica Neue Medium", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	
 		/*import your own bullets*/
-		list-style-position:inside;
-		list-style-image: url("Bullet.png");
+		list-style:none;
+		/*list-style-image: url("Bullet.png");*/
 	}
-	
+	  
+	li:before {
+	/* puts an item right before the li*/
+  		content: " • ";
+  		color: blue;
+	}
+	li:hover:before {
+	/* hovers over an item right before the li*/
+  	color: black;
+	}
+	  
 	p {
 		color: darkblue;
 		font-size:10pt;
