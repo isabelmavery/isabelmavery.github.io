@@ -71,9 +71,10 @@
 	
 	#slide1 {
 		/*no repeat = image just pictured once, fixed is making it parallax*/
-	    background: url(http://www.fmrealty.com/images/uploads/Duke%20Chapel.jpg) no-repeat fixed; 
-		
-		top:0;
+	    background: url(http://www.fmrealty.com/images/uploads/Duke%20Chapel.jpg);
+	    background-size: cover;
+            background-position: center center;
+	top:0;
         left:0;
         /* prevents your fixed panel from being on top of your subsequent panels */
         z-index: -99; 
@@ -94,6 +95,8 @@
 	
 	#slide2 {
 		background: url(http://www.trbimg.com/img-57eb0134/turbine/ct-chicago-donald-trump-mary-schmich-0928-20160927);
+		background-size: cover;
+		background-position: center center;
 	}
 	.slides {
 		/*make full page*/
