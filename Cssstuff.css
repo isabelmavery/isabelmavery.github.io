@@ -1,0 +1,251 @@
+@CHARSET "UTF-8";
+body#entbod {background-color:none}
+body#mainbod{
+	background-color:#ffffff;
+	margin:auto;
+	}
+	
+html#enter {
+	  background: url("30LAKEMICHIGAN1-superJumbo.jpg") no-repeat center center fixed; 
+  	  -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+}
+h1 {text-align:center; color:#043071; font: normal 33pt "Helvetica"}
+h1#subhead {
+	text-align:center; color:#043071; font: normal 20pt "Helvetica"
+}
+h2 {
+	text-align:left; color:#043071; font: normal 15pt "Helvetica"
+}
+h1#h2 { /* page blog - two*/
+  height: 10px;
+  color:#fafaf7;
+  font: normal 45pt "Helvetica Neue Medium";
+  letter-spacing: 0px;
+  font-weight: bold;
+  opacity=1;
+  font-family: "HelveticaNeue-Medium", "Helvetica Neue Medium", "Helvetica Neue", Helvetica, Arial, sans-serif;)
+  }
+div#t1{
+	 opacity:1; padding: 0 px;background-color: transparent;
+}
+
+div#t2{
+	 top:50%;
+	 opacity: 1; padding: 0 px;
+	 -webkit-transform: translate(0%,1660%)
+}
+nav#bookmarks{
+	background-color:white;
+	float:clear;
+	padding:10px;
+	text-align:center;
+	
+}
+div#bookmarks{
+	text-align:center;
+}
+a#fun:link{
+	text-decoration:none;
+}
+a#fun:hover{
+	color:#423d38;
+}
+a#a2:link {
+	color:#043071; 
+	font: normal 13pt "Helvetica";
+	text-decoration:none;
+	margin:35px;
+	padding:10px;
+	transform:(20%,0%);
+	font-family: "HelveticaNeue-Medium", "Helvetica Neue Medium", "Helvetica Neue", Helvetica, Arial, sans-serif;)
+}
+
+a#a2:hover {
+	background-color:grey;
+	padding:10px;
+	width:1000;
+	
+}
+
+a#a3:link {
+	color:#043071; 
+	font: normal 13pt "Helvetica";
+	text-decoration:none;
+	margin:35px;
+	padding:10px;
+	transform:(40%,0%);
+	font-family: "HelveticaNeue-Medium", "Helvetica Neue Medium", "Helvetica Neue", Helvetica, Arial, sans-serif;)
+}
+
+a#a3:hover {
+	background-color:grey;
+	padding:10px;
+	width:1000;
+	
+}
+a#a4:link {
+	color:#043071; 
+	font: normal 13pt "Helvetica";
+	text-decoration:none;
+	margin:35px;
+	padding:10px;
+	transform:(60%,0%);
+	font-family: "HelveticaNeue-Medium", "Helvetica Neue Medium", "Helvetica Neue", Helvetica, Arial, sans-serif;)
+}
+
+a#a4:hover {
+	background-color:grey;
+	padding:10px;
+	width:1000;
+	
+}
+
+a#a5:link {
+	color:#043071; 
+	font: normal 13pt "Helvetica";
+	text-decoration:none;
+	margin:35px;
+	padding:10px;
+	transform:(80%,0%);
+	font-family: "HelveticaNeue-Medium", "Helvetica Neue Medium", "Helvetica Neue", Helvetica, Arial, sans-serif;)
+}
+
+a#a5:hover {
+	background-color:grey;
+	padding:10px;
+	width:1000;
+	
+}
+
+a#a6:link {
+	color:#043071; 
+	font: normal 13pt "Helvetica";
+	text-decoration:none;
+	margin:35px;
+	padding:10px;
+	transform:(100%,0%);
+	font-family: "HelveticaNeue-Medium", "Helvetica Neue Medium", "Helvetica Neue", Helvetica, Arial, sans-serif;)
+}
+
+a#a6:hover {
+	background-color:grey;
+	padding:10px;
+	width:1000;
+	
+}
+
+a#a7:link {
+	color:#043071; 
+	font: normal 13pt "Helvetica";
+	text-decoration:none;
+	margin:35px;
+	padding:10px;
+	transform:(120%,0%);
+	font-family: "HelveticaNeue-Medium", "Helvetica Neue Medium", "Helvetica Neue", Helvetica, Arial, sans-serif;)
+}
+
+a#a7:hover {
+	background-color:grey;
+	padding:10px;
+	width:1000;
+	
+}
+	div.box{
+    border-bottom: dotted 1px #ccc;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    width: 700px;
+    }
+    
+    div.grid1 {
+    display:block;
+    border:1pt solid black;
+    width:200px;
+    float:left;
+    padding: 0 1%;
+    }
+    
+    div.grid2{
+    display:block;
+    float:left;
+    border:1pt solid green;
+    width:500px;
+    padding: 0 1%;
+
+    }
+    
+p#p1 {
+	border:3px solid #043071;
+	padding:10px;
+	margin:20px;  /*defines space outside of border*/
+	color:#043071;
+	text-align:left; 
+	font: normal 13pt "Helvetica";
+	background-color:white;
+}
+p#p2 {
+	border:3px solid #043071;
+	padding:10px;
+	margin:20px;  /*defines space outside of border*/
+	color:#043071;
+	text-align:left; 
+	font: normal 13pt "Helvetica";
+	background-color:white;
+	
+}
+img {
+	transform:(0%,0%);
+	border:1px solid #043071;
+ 	font: normal 8pt "Helvetica";
+ 	margins:20px;
+ }
+
+a#a1:link {
+	text-decoration:none;
+	backgroundcolor:transparent;
+	color:#19191b; 
+	font: normal 20pt "Helvetica"
+}
+a#a1:hover{
+	color:#465bcf;
+	backgroundcolor:white;
+}
+
+a#a1:active{
+	color:#465bcf;
+}
+
+h2#h02 {
+	text-align:left;
+	color:#043071; 
+	font: normal 15pt "Helvetica"
+}
+
+address{
+	text-align:left;
+	color:#043071; 
+	font: normal 12pt "Helvetica";
+	padding: 10pt;
+}
+
+h2#bm {
+	text-align:left;
+	color:#043071; 
+	font: normal 15pt "Helvetica";
+}
+
+section#middle {
+	background-color:white;
+	border: 2px solid grey;
+	padding: 2px;
+	margin:1px;
+}
+
+h2#bm {
+	padding:10px;
+	color:#043071;
+	margin:20px;  /*defines space outside of border*/
+}
