@@ -1,0 +1,100 @@
+
+<html>
+    <head>
+   		 <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Ubuntu+Condensed">
+   		 <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Ubuntu">
+        <title> Its The feeling of freedom, of seein' the light</title>
+        <!--below this we see where body and the first half of style will go in pages-->
+    </head>
+	<div>
+	</div>
+<body>
+
+<div class="formsarefun">
+<h1>Hallo.</h1>
+<form  action="windex.php"  method = "post" name="myForm">
+	<br>
+    Geben Sie einen Satz: &nbsp<input type="text" name="greet" class="in">
+    <br/>
+    <br>
+    Was ist der adjetive?: <input type="text" name="name" class="in">
+    <br/>
+    <br/>
+    Nominative, Dative oder Akkusativ? <input type="text" name="case" class="in">
+    <br> <br>
+    <input type="submit" value="Submit" class="button">
+</form>
+</div>
+</body>
+
+
+<style>
+.formsarefun {
+	margin-left: auto;
+    margin-right: auto;
+    text-align:left;
+	position:relative;
+	width:28%;
+	top:29.6%;
+	}
+	
+h1 {
+	text-align: center;
+	}
+	
+.in {
+	font-size:1.1em;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+.button {
+	display: block;
+	position: relative;
+	margin:auto;	
+	width:200px;
+	background: #6287a6; /*the colour of the button*/
+	padding: 8px 14px 10px; /*apply some padding inside the button*/
+	border:0px solid #6287a6; /*required or the default border for the browser will appear*/
+	cursor:pointer; /*forces the cursor to change to a hand when the button is hovered*/
+	/*style the text*/
+	font-size:1.5em;
+	font-family:Ubuntu; /*Oswald is available from http://www.google.com/webfonts/specimen/Oswald*/
+	letter-spacing:.1em;
+	/*text-shadow: 0 -2px 0px rgba(0, 0, 0, 0.0); give the text a shadow - doesn't appear in Opera 12.02 or earlier*/
+	color: white;
+	/*use box-shadow to give the button some depth - see cssdemos.tupence.co.uk/box-shadow.htm#demo7 for more info on this technique*/
+	-webkit-box-shadow: inset 0px 1px 0px #48657e, 1.6px 4px 0px 0px #48667e, 0px 0px 5px #3d576c;
+	-moz-box-shadow: inset 0px 1px 0px #48657e, 1.6px 4px 0px 0px #48667e, 0px 0px 5px #3d576c;
+	box-shadow: inset 0px 1px 0px #48657e, 1.6px 4px 0px 0px #48667e, 0px 0px 5px #3d576c;
+	/*give the corners a small curve*/
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+}
+
+.button:hover, .button:focus {
+	color:lightgrey;
+	-webkit-box-shadow: inset 0px 1px 0px #48657e, 0px 2px 0px 0px #4f86ab, 0px 2px 5px #3d576c;
+	-moz-box-shadow: inset 0px 1px 0px #48657e, 0px 2px 0px 0px #4f86ab, 0px 2px 5px #3d576c;
+	box-shadow: inset 0px 1px 0px #48657e, 0px 2px 0px 0px #4f86ab, 0px 2px 5px #3d576c;
+}
+	
+		html {
+	  background: url(http://d352ltojookjzf.cloudfront.net/wp-content/uploads/2014/04/12-free-blurred-backgrounds.jpg) no-repeat center center fixed; 
+  	  -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+		}
+		
+		body {
+		color: white; 
+		font-family: 'Ubuntu Condensed';
+		font-style: oblique;
+		font-weight: normal;
+		}
+		
+	</style>
+
+</html>
