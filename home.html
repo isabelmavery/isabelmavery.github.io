@@ -94,20 +94,20 @@
 	    background: url(http://www.fmrealty.com/images/uploads/Duke%20Chapel.jpg);
 	    background-size: cover;
             background-position: center center;
-	top:0;
-        left:0;
+	    top:0;
+            left:0;
         /* prevents your fixed panel from being on top of your subsequent panels */
-        z-index: -99; 
+            z-index: -99; 
 	}
 	
-    .parent { 
-		/*selects the div of id parent*/
+        .parent { 
+		/*selects the div of class parent*/
 		background-color:rgba(200,250,260,.7);
 		position:relative;
-       	 height:100%;
-       	 min-height:100%;
-       	 width:100%;
-       	 z-index:1000;
+        	height:100%;
+       	        min-height:100%;
+       	        width:100%;
+       	        z-index:1000;
 		border-bottom: 3px solid royalblue;
 		border-top: 3px solid royalblue;
 
@@ -193,12 +193,15 @@
 	<div id ="slide2"; class = "slides"> </div>
 	   
 	<div id = "slide4"; class = "slides"> 
-	   <div class = "boxes">
+	<div class = "parents">
+		<br><br>
+	   		<div class = "boxes">
 				<p>
 					Job Experience: I have done things.
 				</p>
 			</div>
-	   </div>
+	   	</div>
+	  </div>
    </div>
 	
 	<script src = "main.js" type="text/javascript"> </script>
