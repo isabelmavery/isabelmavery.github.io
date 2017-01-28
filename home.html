@@ -1,3 +1,4 @@
+<!--Changed font-size: 5vw;-->
 <!doctype html>
 <html>
   <head>
@@ -13,7 +14,7 @@
 	 #title {
 		color: darkblue;
 		margin: 0px;
-		font-size: 4.5vw;
+		font-size: 5vw;
 		font-family: "Helvetica";
 		font-weight:normal;
 		text-align: center;
@@ -36,9 +37,8 @@
 	.boxes, #cont2, #cont3 {
 		width: 60%;
 		margin: auto;
-    		border: 3px solid royalblue;
+    	border: 3px solid royalblue;
 		background-color: white;
-  	   	
 	  }
 	  
 	 #contisabel {
@@ -51,7 +51,7 @@
 	li {
 		/*edits the list*/
 		color: darkblue;
-		font-size: 1.5vw;
+		font-size: 1.8vw;
 		margin: 10px;
 		text-align: center;
 		font-family: "HelveticaNeue-Medium", "Helvetica Neue Medium", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -111,10 +111,8 @@
 		/*selects the div of class parent*/
 		background-color:rgba(200,250,260,.7);
 		position:relative;
-        	height:100%;
-       	        min-height:100%;
-       	        width:100%;
-       	        z-index:1000;
+		/*don't adjust height and width to be the full page/screen size as we want it to readjust (auto)*/
+       	z-index:1000;
 		border-bottom: 3px solid royalblue;
 		border-top: 3px solid royalblue;
 
@@ -205,23 +203,39 @@
 		<h1 id = "title" > J o b &nbsp E x p e r i e n c e</h1> 
 		<br>
 	   		<div class = "boxes">
-				<p>
-					Job Experience: I have done many things.
+				<p class = "clickme">
+					Computer Science and High Energy Particle Physics Intern<br>
+					Argonne National Laboratory, Lemont, IL <br>
+					<br>
+					•	Implemented ROOT / C++ to develop a particle visualization project, bolstering programming abilities. Programmed the collision of high energy particles in 3D. <br>
+					•	Partook in a supplementary semester long class on high energy particle (HEP) physics, exploring HEP basics to comprehend the particle systems I would later model using ROOT. <br>
+
 				</p>
 			</div>
 		<br>
 			<div class = "boxes">
-				<p>
-					I have also done this.
+				<p class = "clickme">
+					Supervisor at Duke Climbing Wall<br>
+					Outdoor Adventures, Duke Recreation Center- Durham NC<br><br>
+					•	Direct staff members, providing written feedback throughout the semester and acting as a supervisor to new employees. <br> 
+					•	Fostered a friendly environment by renting out gear to members of the community, protecting and belaying duke university climbers.<br>
+
 				</p>
 			</div>
 		<br>
 			<div class = "boxes">
-				<p>
-					I have made this great thing.
+				<p class = "clickme">
+					Student Research Assistant <br>							     	        
+					Duke Lemur Center, Durham, NC <br><br>
+					•	Tested using SMARTA: Subject Mediated Automatic Remote Testing Apparatus, a uniquely designed machine that rewards lemurs by dispensing raisins upon interaction with an android-based app on a tablet. <br>
+					•	Analyzed Red-Ruffed and Black and White- Ruffed Lemurs looking at color vision discrimination and the role of dichromaticism in their lives. Actively ran experimental procedure for months at a time. <br>
+
 				</p>
 			</div>
+		<br>
 	   	</div>
+		   
+<!--this is the wrapper div-->
    </div>
 	
 	<script src = "main.js" type="text/javascript"> </script>
