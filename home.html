@@ -37,7 +37,7 @@
 	.boxes, #cont2, #cont3 {
 		width: 60%;
 		margin: auto;
-    	border: 3px solid royalblue;
+    	border: 3px solid darkblue;
 		background-color: white;
 	  }
 	  
@@ -48,14 +48,17 @@
 		text-align: center;
 	  }
 	
+	  ul{
+		  padding: 0;
+	  }
 	li {
 		/*edits the list*/
 		color: darkblue;
 		font-size: 1.8vw;
-		margin: 10px;
+		margin: 9px;
 		text-align: center;
 		font-family: "HelveticaNeue-Medium", "Helvetica Neue Medium", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	
+		font-weight:normal;
 		/*import your own bullets*/
 		list-style:none;
 		/*list-style-image: url("Bullet.png");*/
@@ -66,17 +69,28 @@
 	  }
 	  
 	li:before {
-	/* puts an item right before the li*/
+	 /*puts an item right before the li*/
   		content: " • ";
   		color: black;
 		
 	}
 	  
 	li:hover:before {
-	/* hovers over an item right before the li*/
+	 /*hovers over an item right before the li*/
   	color:blue;
 	}
 	  
+	h1.subtitles {
+		color: darkblue;
+		font-size:2.0vw;
+		font-weight:normal;
+		margin: 20px;
+		text-align: center;
+		font-family: "HelveticaNeue-Medium", "Helvetica Neue Medium", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	}
+	h1.subtitles:hover{
+		color: rgba(100,180,260,.4);
+	}
 	p {
 		color: darkblue;
 		font-size:1.5vw;
@@ -113,8 +127,8 @@
 		position:relative;
 		/*don't adjust height and width to be the full page/screen size as we want it to readjust (auto)*/
        	z-index:1000;
-		border-bottom: 3px solid royalblue;
-		border-top: 3px solid royalblue;
+		border-bottom: 3px solid darkblue;
+		border-top: 3px solid darkblue;
 
 	}
 	
@@ -157,6 +171,36 @@
 		/*border: 2px solid lightgrey;*/
 		z-index:10000;
 	}
+	/*The next 6 things deal with the Job Exp tab*/
+	#b1{
+		background:url(http://images.gizmag.com/hero/standard-model-particle-physics-unexpected-particle-2.jpg);
+		background-size: cover;
+		background-position: center center;
+	}
+	#b2{
+		background:url(https://recreation.duke.edu/wp-content/uploads/2011/08/climbing-wall4.jpg);
+		background-size: cover;
+		background-position: center center;
+	}
+	#b3{
+		background:url(lemur.jpg);
+		background-size: cover;
+		background-position: center center;
+	}
+	#b1:hover,#b2:hover,#b3:hover{
+		background:none;
+		background-color: white;
+	}
+
+	.boxes:hover .clickme{
+		visibility: visible;
+
+	}
+	.boxes .clickme{
+		visibility: hidden;
+	}
+
+
   </style>
   
   </head>
@@ -168,7 +212,7 @@
 	</div>
 
 	<div id="menu">
-		<a href="http://isabelmavery.com/" > 
+		<a href="index.html" > 
 			<!--change to www.isabelmavery.com in online file-->
 			<img src="arrow.png" alt="Back" style="width:100%;height:100%;opacity:.7;">
 			</a> 
@@ -184,8 +228,10 @@
 		<br>
 			<div id = "cont2">
 				<p>
-				Undergraduate at Duke University specializing in biological, computational and physical research. <br>
-				Physics and Computer Science - 2018 
+  					Duke University undergraduate, specializing in biological, computational and physical research. 
+					Originally from Evanston, IL where I spent the past 18 years of my life. Looking for a slightly warmer place of employment.
+					<br><br>
+				Physics and Computer Science, 2018 (Junior)
 				</p> 
 			</div>
 		<br>
@@ -205,12 +251,18 @@
 		
 		<br>
 			<div id = "cont3">
+					<h1 class="subtitles"> Reach out to me : </h1>
+				
 					<ul id = "l1">
-					<li>ima10@duke.edu</li>
-					<li> isabelmavery@gmail.com</li>
-					<li> 
-						<a id = "a1"; href = "https://www.linkedin.com/in/isabel-avery-691534119"; target = "_blank";> <b>LinkedIn<b/></a>
-					</li>
+						<li>
+							<a id = "1a"; href = "mailto:ima10@duke.edu?subject=Hello Isabel!";><b>ima10@duke.edu<b/></a>
+						</li>
+						<li>
+							<a id = "2a"; href = "mailto:isabelmavery@gmail.com?subject=Hello Isabel!";><b>isabelmavery@gmail.com<b/></a>
+							</li>
+						<li> 
+							<a id = "3a"; href = "https://www.linkedin.com/in/isabel-avery-691534119"; target = "_blank";><b>LinkedIn<b/></a>
+						</li>
 					</ul>
 			</div>
 		<br><br>
@@ -220,9 +272,9 @@
 	<div class = "parent"; id = "resume";>
 		
 		<br>
-		<h1 id = "title" > J o b &nbsp E x p e r i e n c e</h1> 
+		<h1 id = "title" > W o r k &nbsp E x p e r i e n c e</h1>
 		<br>
-	   		<div class = "boxes">
+	   		<div class = "boxes" id = "b1">
 				<p class = "clickme">
 					Computer Science and High Energy Particle Physics Intern<br>
 					Argonne National Laboratory, Lemont, IL <br>
@@ -233,7 +285,7 @@
 				</p>
 			</div>
 		<br>
-			<div class = "boxes">
+			<div class = "boxes" id = "b2">
 				<p class = "clickme">
 					Supervisor at Duke Climbing Wall<br>
 					Outdoor Adventures, Duke Recreation Center- Durham NC<br><br>
@@ -243,7 +295,7 @@
 				</p>
 			</div>
 		<br>
-			<div class = "boxes">
+			<div class = "boxes" id = "b3">
 				<p class = "clickme">
 					Student Research Assistant <br>							     	        
 					Duke Lemur Center, Durham, NC <br><br>
