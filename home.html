@@ -38,13 +38,21 @@
 		margin: auto;
     		border: 3px solid royalblue;
 		background-color: white;
+		/*Should make the boxes position absolute ie: relative to the div they are in or nearest positioned element */
+		position:absolute;
+		top:10px;
+		left:0;
   	   	
 	  }
 	  
 	 #contisabel {
 		width: 25%;
 		margin: auto;
-		padding: 5px;	 
+		padding: 5px;
+		/*Should make the boxes position absolute ie: relative to the div they are in or nearest positioned element */
+		position:absolute;
+		top:10px;
+		left:0;
 	  }
 	
 	li {
@@ -59,6 +67,10 @@
 		list-style:none;
 		/*list-style-image: url("Bullet.png");*/
 	}
+	 
+	li:hover{
+		background-color: rgba(100,180,260,.4);
+	  }
 	  
 	li:before {
 	/* puts an item right before the li*/
@@ -66,6 +78,7 @@
   		color: black;
 		
 	}
+	  
 	li:hover:before {
 	/* hovers over an item right before the li*/
   	color:blue;
@@ -122,10 +135,10 @@
 	.slides {
 		/*make full page*/
 		position:relative;
-        height:100%;
-        min-height:100%;
-        width:100%;
-        z-index:1000;
+		height:100%;
+		min-height:100%;
+		width:100%;
+		z-index:1000;
 	}
 	
 	 #wrapper 
