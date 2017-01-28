@@ -148,6 +148,15 @@
 		left: 50%;
 		transform: translateX(-50%) translateY(-50%);
 	}
+
+	#menu{
+		position: fixed;
+		top: 0;
+		right: 0;
+		width: 10%;
+		/*border: 2px solid lightgrey;*/
+		z-index:10000;
+	}
   </style>
   
   </head>
@@ -157,6 +166,17 @@
     <div id= "slide1"; class= "slides";> 
 		<span id = "welcome" class = "center" style = "font-family"> Welcome </span>
 	</div>
+
+	<div id="menu">
+		<a href="http://isabelmavery.com/" > 
+			<!--change to www.isabelmavery.com in online file-->
+			<img src="arrow.png" alt="Back" style="width:100%;height:100%;opacity:.7;">
+			</a> 
+		<a href="mailto:ima10@duke.edu?subject=Hello Isabel!" > 
+			<img src="email.png" alt="Email" style="width:100%;height:100%;opacity:.7;">
+			</a> 
+	</div>
+
 	
 	<div class = "parent";>
 		<br>
