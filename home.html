@@ -14,11 +14,12 @@
 	 #title {
 		color: darkblue;
 		margin: 0px;
-		font-size: 5vw;
-		font-family: "Helvetica";
+		font-size: 4vw;
+		font-family: "HelveticaNeue-Medium", "Helvetica Neue Medium", "Helvetica Neue", Helvetica, Arial, sans-serif;	
 		font-weight:normal;
 		text-align: center;
 		letter-spacing: 1px;
+		text-shadow: 2px 2px 2px #CCCCCC;
 	}
 	#welcome{
 		font-family: "HelveticaNeue-Medium", "Helvetica Neue Medium", "Helvetica Neue", Helvetica, Arial, sans-serif;	
@@ -37,8 +38,11 @@
 	.boxes, #cont2, #cont3 {
 		width: 60%;
 		margin: auto;
-    	border: 3px solid darkblue;
+    	border: 1px solid darkblue;
 		background-color: white;
+		border-radius: 5px;
+		box-shadow: 5px 6px 20px 0px rgba(0,0,0,0.5);
+		/* right bottom opacity? unsurebutugly*/
 	  }
 	  
 	 #contisabel {
@@ -123,12 +127,13 @@
 	
         .parent { 
 		/*selects the div of class parent*/
-		background-color:rgba(200,250,260,.7);
+		background-color:white;
 		position:relative;
 		/*don't adjust height and width to be the full page/screen size as we want it to readjust (auto)*/
        	z-index:1000;
 		border-bottom: 3px solid darkblue;
 		border-top: 3px solid darkblue;
+		box-shadow: 5px 5px 10px 10px rgba(0,0,0,0.5);
 
 	}
 	
@@ -187,7 +192,12 @@
 		background-size: cover;
 		background-position: center center;
 	}
-	#b1:hover,#b2:hover,#b3:hover{
+	#b4{
+		background:url(https://sites.duke.edu/turtlesinturkey/files/2016/07/IMG_0728.jpg);
+		background-size: cover;
+		background-position: center center;
+	}
+	#b1:hover,#b2:hover,#b3:hover,#b4:hover{
 		background:none;
 		background-color: white;
 	}
@@ -268,7 +278,7 @@
 		<br><br>
 	</div> <!--end of the parent div-->
 	<div id ="slide2"; class = "slides"> 
-		<img src="downarrow.png" style="width:30%;height:40%;opacity:0.6;" class="center"></img>
+		<!--<img src="downarrow.png" style="width:30%;height:30%;opacity:0.6;" class="center"></img>-->
 	</div>
 	   
 	<div class = "parent"; id = "resume";>
@@ -279,7 +289,7 @@
 	   		<div class = "boxes" id = "b1">
 				<p class = "clickme">
 					Computer Science and High Energy Particle Physics Intern<br>
-					Argonne National Laboratory, Lemont, IL <br>
+					Argonne National Laboratory, Lemont, IL  &nbsp May - August, 2015<br>
 					<br>
 					•	Implemented ROOT / C++ to develop a particle visualization project, bolstering programming abilities. Programmed the collision of high energy particles in 3D. <br>
 					•	Partook in a supplementary semester long class on high energy particle (HEP) physics, exploring HEP basics to comprehend the particle systems I would later model using ROOT. <br>
@@ -290,25 +300,37 @@
 			<div class = "boxes" id = "b2">
 				<p class = "clickme">
 					Supervisor at Duke Climbing Wall<br>
-					Outdoor Adventures, Duke Recreation Center- Durham NC<br><br>
+					Outdoor Adventures, Duke Recreation Center- Durham NC &nbsp August 2015 - present<br><br>
 					•	Direct staff members, providing written feedback throughout the semester and acting as a supervisor to new employees. <br> 
 					•	Fostered a friendly environment by renting out gear to members of the community, protecting and belaying duke university climbers.<br>
 
 				</p>
 			</div>
 		<br>
+		<a href = "https://tinyurl.com/jalm2hs" style="color:inherit;text-decoration:none">
 			<div class = "boxes" id = "b3">
 				<p class = "clickme">
 					Student Research Assistant <br>							     	        
-					Duke Lemur Center, Durham, NC <br><br>
-					•	Tested using SMARTA: Subject Mediated Automatic Remote Testing Apparatus, a uniquely designed machine that rewards lemurs by dispensing raisins upon interaction with an android-based app on a tablet. <br>
+					Duke Lemur Center, Durham, NC &nbsp August 2015 - present<br><br>
 					•	Analyzed Red-Ruffed and Black and White- Ruffed Lemurs looking at color vision discrimination and the role of dichromaticism in their lives. Actively ran experimental procedure for months at a time. <br>
-
+					•	Co-author on <a href = "https://tinyurl.com/jalm2hs">poster presentation</a> analyzing the results of our color-vision experiment   <br>
 				</p>
 			</div>
+		</a>
 		<br>
-	   	</div>
-		   
+		<a href = "https://sites.duke.edu/turtlesinturkey/" style="color:inherit;text-decoration:none">
+		<div class = "boxes" id = "b4">
+				<p class = "clickme">
+					Sea Turtle Conservationalist Intern <br>							     	        
+					DEKAMER Turtle Hospital, Dalyan, Turkey &nbsp May 2016 - July 2016<br><br>
+					•	Patrolled 6-mile length of beach each night finding and recording measurements on loggerheaded sea turtles<br>
+					•	Acted as an educational and conservationalist tour guide for an average of 200 visitors a day to the center<br>
+				</p>
+			</div>
+		</a>
+		<br>
+	</div>
+
 <!--this is the wrapper div-->
    </div>
 	
